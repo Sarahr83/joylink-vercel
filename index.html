@@ -6,19 +6,52 @@
   <meta name="description" content="Dossier presse Joylink : présentation rapide, usages et accès direct aux bijoux connectés et bijoux souvenirs (colliers, bagues NFC). Ressources officielles.">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="index,follow">
-  <meta name="google-site-verification" content="CmQeHTUhSYFuVlHYp0WboTKrAiGRe9f0Q72kdci968A" />
-  <meta name="msvalidate.01" content="B8A4352619D595A99BAE5D2FEA62F892" />
+
+  <!-- Vérifs moteurs (garde-les si tu valides ce site dans GSC/Bing) -->
+  <meta name="google-site-verification" content="CmQeHTUhSYFuVlHYp0WboTKrAiGRe9f0Q72kdci968A">
+  <meta name="msvalidate.01" content="B8A4352619D595A99BAE5D2FEA62F892">
+
+  <!-- Canonical : mets ici l'URL Vercel finale -->
+  <link rel="canonical" href="https://joylink-vercel.vercel.app/">
+
+  <!-- Open Graph / Twitter -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Joylink — Dossier Presse">
+  <meta property="og:title" content="Dossier Presse Joylink — Bijoux connectés & bijoux souvenirs">
+  <meta property="og:description" content="Présentation presse, usages et accès aux collections Joylink (colliers, bagues NFC).">
+  <meta property="og:url" content="https://joylink-press.vercel.app/">
+  <meta name="twitter:card" content="summary">
+
+  <!-- Style léger pour la lisibilité (n’influence pas le SEO) -->
   <style>
-    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,sans-serif;line-height:1.6;margin:40px auto;max-width:860px;padding:0 16px}
-    h1{line-height:1.2}
+    :root{--mw:860px}
+    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,sans-serif;line-height:1.6;margin:40px auto;max-width:var(--mw);padding:0 16px}
+    h1{line-height:1.2;margin:.2em 0}
     ul{padding-left:1.1rem}
     a{text-decoration:none;border-bottom:1px solid currentColor}
-    footer{opacity:.8}
+    footer{opacity:.85}
   </style>
+
+  <!-- JSON-LD : contexte sémantique -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"WebPage",
+    "name":"Dossier Presse Joylink — Bijoux connectés & bijoux souvenirs",
+    "url":"https://joylink-vercel.vercel.app/",
+    "about":[
+      {"@type":"Thing","name":"Bijoux connectés"},
+      {"@type":"Thing","name":"Bijoux souvenirs"},
+      {"@type":"Thing","name":"NFC"}
+    ],
+    "publisher":{"@type":"Organization","name":"Joylink","url":"https://www.joylink.fr"}
+  }
+  </script>
 </head>
 <body>
   <h1>Dossier Presse Joylink</h1>
   <p>Présentation presse, exemples d’usages et accès aux collections Joylink.</p>
+
   <ul>
     <li><a href="https://www.joylink.fr/" target="_blank" rel="noopener">Joylink – bijou souvenir connecté</a></li>
     <li><a href="https://www.joylink.fr/colliers-connectes/" target="_blank" rel="noopener">colliers connectés</a></li>
@@ -26,6 +59,7 @@
     <li><a href="https://www.joylink.fr/nos-bijoux/" target="_blank" rel="noopener">bijoux souvenirs connectés</a></li>
     <li><a href="https://www.joylink.fr/faq/" target="_blank" rel="noopener">comment fonctionnent les bijoux connectés Joylink</a></li>
   </ul>
-  <footer><small>Généré le 2025-08-18</small></footer>
+
+  <footer><small>Généré le 2025‑08‑18 </small></footer>
 </body>
 </html>
